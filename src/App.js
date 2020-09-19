@@ -11,9 +11,6 @@ class App extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
-          <a href="/tutorials" className="navbar-brand">
-            bezKoder
-          </a>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link to={"/tutorials"} className="nav-link">
